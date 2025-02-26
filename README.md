@@ -1,4 +1,4 @@
-# KPTwitter - A Mini Twitter Clone 🐦
+# TweeTalk - A Mini Twitter Clone 🐦
 
 KPTwitter is a **Django-based social media application** where users can create, edit, and delete tweets. 
 It includes a user authentication system, a searchable tweet list, and a contact form to submit user issues.
