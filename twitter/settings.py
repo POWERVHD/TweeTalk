@@ -128,7 +128,12 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'),]
+
+# Static files for development (store your CSS, JS, images here)
+#STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'),]
+
+# Static files for production (collectstatic will copy all files here)
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 
 LOGIN_URL = '/accounts/login/'
