@@ -41,17 +41,6 @@ python manage.py migrate
 python manage.py runserver
 
 ## 🛠️ Project Structure
-
-/kptwitter
-│── twitter/
-│   ├── tweet/         # Tweet app (Handles tweets, photos, and search)
-│   ├── users/         # User authentication (Login, Signup, Logout)
-│   ├── contact/       # Contact Us Form
-│   ├── static/        # CSS, JS, and images
-│   ├── templates/     # HTML templates
-│── .gitignore         # Ignoring venv, database, and unnecessary files
-│── requirements.txt   # List of dependencies
-│── manage.py          # Django management script
 ![image](https://github.com/user-attachments/assets/34229a25-8dbb-4652-9e81-a0c21b1c4505)
 
 
