@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2>Contact Us</h2>
+
+    <!-- Show success message if the form is submitted -->
+    {% if messages %}
+        {% for message in messages %}
+            <div class="alert alert-success">{{ message }}</div>
+        {% endfor %}
+    {% endif %}
+
+    <!-- Contact form -->
+    <form method="POST">
+        {% csrf_token %}  <!-- Security feature to prevent cross-site request forgery -->
+
+        <div class="mb-3">
+            {{ form.name.label_tag }}  <!-- Display "Name" label -->
+            {{ form.name }}  <!-- Name input field -->
+        </div>
+
+        <div class="mb-3">
+            {{ form.email.label_tag }}  <!-- Display "Email" label -->
+            {{ form.email }}  <!-- Email input field -->
+        </div>
+
+        <div class="mb-3">
+            {{ form.issue.label_tag }}  <!-- Display "Issue" label -->
+            {{ form.issue }}  <!-- Issue textarea -->
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+{% endblock %}
