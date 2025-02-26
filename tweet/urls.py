@@ -14,6 +14,6 @@ urlpatterns = [
     path('register/', views.register, name='register'),
 
     path('contact/', contact_view, name='contact'),
-    
+
 
 ]
