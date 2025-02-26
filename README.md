@@ -52,6 +52,7 @@ python manage.py runserver
 │── .gitignore         # Ignoring venv, database, and unnecessary files
 │── requirements.txt   # List of dependencies
 │── manage.py          # Django management script
+![image](https://github.com/user-attachments/assets/34229a25-8dbb-4652-9e81-a0c21b1c4505)
 
 
 ---
