@@ -19,7 +19,7 @@ It includes a user authentication system, a searchable tweet list, and a contact
 
 ### **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/your-username/kptwitter.git
+https://github.com/POWERVHD/TweeTalk.git
 cd kptwitter
 ```
 
