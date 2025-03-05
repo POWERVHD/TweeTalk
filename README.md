@@ -7,7 +7,7 @@ It includes a user authentication system, a searchable tweet list, and a contact
 
 ## 🚀 Features
 - ✅ **User Authentication** (Signup, Login, Logout)
-- ✅ **Create, Read, Update, and Delete (CRUD) Tweets**
+- ✅ **Create, Read, Update, and Delete (CRUD) Posts**
 - ✅ **Upload Photos with Tweets** 🖼️
 - ✅ **Search Tweets by Keywords** 🔍
 - ✅ **Contact Us Form with Database Storage** 📩
