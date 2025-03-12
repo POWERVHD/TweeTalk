@@ -1,5 +1,5 @@
 # TweeTalk - A Microblogging Hub 🗨️
-TweeTalk is a **Django-based social media application** where users can create, edit, and delete tweets. 
+TweeTalk is a **Django-based social media application** where users can create, edit, and delete posts. 
 It includes a user authentication system, a searchable tweet list, and a contact form to submit user issues.
 ![image](https://github.com/user-attachments/assets/89eb2232-19de-43ab-8d01-d8d4f54229cb)
 
